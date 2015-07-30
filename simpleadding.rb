@@ -1,10 +1,10 @@
 def SimpleAdding(num)
 
   # code goes here
-  for i in 1..num
-    sum += i
+  result = 0
+  (1..num).each do |x|
+    result+=x
   end
-  
-  return sum 
+  return result
          
 end
