@@ -1,0 +1,8 @@
+def SecondGreatLow(arr)
+
+  # code goes here
+  arr = arr.sort
+  result = [arr[1],arr[arr.length-2]]
+  return result
+         
+end
